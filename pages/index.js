@@ -22,7 +22,7 @@ const Home = ({ nearby_locations, anywhere_locations }) => {
   return (
     <div className="">
       <Head>
-        <title>AirBnB UI NextJS</title>
+        <title>{t("title")}</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -37,7 +37,7 @@ const Home = ({ nearby_locations, anywhere_locations }) => {
       {/* Main */}
       <main className="max-w-7xl mx-auto px-8 sm:px-16">
         <section className="pt-6">
-          <h2 className="text-4xl font-semibold pb-5">Explore Nearby</h2>
+          <h2 className="text-4xl font-semibold pb-5">{t("explore-nearby")}</h2>
 
           {/* Pull data from SV - API endpoints */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
@@ -53,7 +53,7 @@ const Home = ({ nearby_locations, anywhere_locations }) => {
         </section>
 
         <section>
-          <h2 className="text-4xl font-semibold py-8">Live anywhere</h2>
+          <h2 className="text-4xl font-semibold py-8">{t("live-anywhere")}</h2>
           <div className="flex space-x-3 overflow-scroll scrollbar-hide p-3 -ml-3">
             {anywhere_locations?.map(({ id, title, img }, index) => (
               <MediumCard key={id} title={title} img={img} />
@@ -61,7 +61,7 @@ const Home = ({ nearby_locations, anywhere_locations }) => {
           </div>
         </section>
 
-        <LargeCard img="/assets/images/card_image.webp" title="The Greatest Outdoors" description="Wishlists curated by Airbnb." buttonText="Get Inspired"/>
+        <LargeCard img="/assets/images/card_image.webp" title={t("the-greatest-outdoors")} description={t("wishlists-curated-by-airbnb")} buttonText={t("get-inspired")}/>
       </main>
 
       <Footer/>

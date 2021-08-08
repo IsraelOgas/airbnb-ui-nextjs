@@ -1,12 +1,24 @@
 {
-    "h1": "A simple example",
     "change-locale": "Cambiar localización",
-    "to-second-page": "Hacia la 2da página",
-    "error-with-status": "A {{statusCode}} error occurred on server",
-    "error-without-status": "An error occurred on the server",
-    "title": "Home | next-i18next",
+    "error-with-status": "Se ha producido un error {{statusCode}} en el servidor",
+    "error-without-status": "Se ha producido un error en el servidor",
+    "title": "Inicio | Airbnb UI NextJS",
 
-    "start-your-search": "Inicie su búsqueda",
-    "become-a-host": "Conviértete en anfitrión",
-    "not-sure-where-to-go": "¿No sabes dónde ir? Perfecto."
+    "start-your-search": "Empieza tu búsqueda",
+    "become-a-host": "Hazte anfitrión",
+
+    "not-sure-where-to-go": "¿No sabes dónde ir? Perfecto.",
+    "im-flexible": "Soy flexible",
+
+    "explore-nearby": "Explora cerca de ti",
+    "live-anywhere": "Vive en cualquier lugar del mundo",
+
+    "the-greatest-outdoors": "Los más grandes al aire libre",
+    "wishlists-curated-by-airbnb": "Listas de deseos seleccionadas por Airbnb",
+    "get-inspired": "Inspírate",
+
+    "about": "Acerca de",
+    "community": "Comunidad",
+    "host": "Anfitrión",
+    "support": "Asistencia"
 }
