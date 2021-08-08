@@ -1,0 +1,12 @@
+{
+    "h1": "A simple example",
+    "change-locale": "Cambiar localización",
+    "to-second-page": "Hacia la 2da página",
+    "error-with-status": "A {{statusCode}} error occurred on server",
+    "error-without-status": "An error occurred on the server",
+    "title": "Home | next-i18next",
+
+    "start-your-search": "Inicie su búsqueda",
+    "become-a-host": "Conviértete en anfitrión",
+    "not-sure-where-to-go": "¿No sabes dónde ir? Perfecto."
+}
