@@ -20,5 +20,9 @@
     "about": "Acerca de",
     "community": "Comunidad",
     "host": "Anfitrión",
-    "support": "Asistencia"
+    "support": "Asistencia",
+
+    "number-of-guests": "Cantidad de huéspedes",
+    "cancel": "Cancelar",
+    "search": "Buscar"
 }

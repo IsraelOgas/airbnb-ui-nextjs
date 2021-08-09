@@ -20,5 +20,9 @@
     "about": "About",
     "community": "Community",
     "host": "Host",
-    "support": "Support"
+    "support": "Support",
+
+    "number-of-guests": "Number of guests",
+    "cancel": "Cancel",
+    "search": "Search"
 }
